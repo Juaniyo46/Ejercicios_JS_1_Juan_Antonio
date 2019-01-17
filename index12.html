@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio 12</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var frase = prompt("Escriba una frase");
+		var veces = "";
+		var a = 0;
+		var e = 0;
+		var i = 0;
+		var o = 0;
+		var u = 0;
+
+		for (var j = 0; j < frase.length; j++) {
+			
+			switch (frase[j]) {
+				case "a":
+					a++
+					break;
+				case "e":
+					e++
+					break;
+				case "i":
+					i++
+					break;
+				case "o":
+					o++
+					break;
+				case "u":
+					u++
+					break;
+				
+			}
+		}
+		document.write("veces de a = " + a + "</br>" + "veces de e = " + e + "</br>" + "veces de i = " + i + "</br>" + "veces de o = " + o + "</br>" + "veces de u = " + u);
+	</script>
+</body>
+</html>
